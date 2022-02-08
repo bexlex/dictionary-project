@@ -5,11 +5,10 @@ import Results from "./Results";
 
 export default function Dictionary() {
 let [keyword, setKeyword] = useState("");
-let [results, setResults] = useState({});
+let [results, setResults] = useState(null);
 
 function search(event) {
     event.preventDefault(); 
-alert(`searching for ${keyword}`);
 
     let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`
     axios.get(apiUrl).then(handleResponse);
