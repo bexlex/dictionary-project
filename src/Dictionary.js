@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
+import "./Dictionary.css";
 
 
 export default function Dictionary() {
@@ -26,9 +27,8 @@ function handleKeywordChange(event) {
 
     return (
         <div className="Dictionary">
-            <div>Dictionary</div>
             <form onSubmit={search}>
-                <input type="search" onChange={handleKeywordChange} />
+                <input className="search-bar" type="search" onChange={handleKeywordChange} />
             </form>
             <div>
             <Results results={results} />

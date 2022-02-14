@@ -1,8 +1,27 @@
+body {
+  background: rgb(255, 219, 219);
+}
+
+a {
+  color: #ff0d0d;
+}
+
 .App {
-  text-align: left;
+  margin: 0px 150px;
+}
+
+.app-header {
+  text-align: center;
+}
+
+.app-logo {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .app-footer {
   text-align: center;
   margin: 30px 0;
+  color: red;
 }
