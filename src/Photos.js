@@ -8,7 +8,7 @@ if (props.photos) {
         {props.photos.map(function (photos, index) {
             return (
                 <div className="col-4" key={index}>
-              <img src={photos.src.landscape} className="img-fluid mb-1" /> 
+              <img src={photos.src.landscape} className="img-fluid mb-1" alt="keyword-photos"/> 
               </div> 
             )
         })}
