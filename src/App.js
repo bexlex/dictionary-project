@@ -13,7 +13,7 @@ export default function App() {
         <Dictionary />
       </main>
       <footer className="app-footer">
-        Coded by Bekah Forni
+        <a href="https://github.com/bexlex/dictionary-project">Open-Source Code</a> by Bekah Forni
       </footer>
     </div>
 
